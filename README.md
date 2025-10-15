@@ -1,4 +1,4 @@
-# 📱 Mobile Price Classification Project  
+# Mobile Price Classification Project  
 
 ###  Predicting Smartphone Price Ranges Using Machine Learning  
 
@@ -55,7 +55,7 @@ By training multiple classification models on real-world mobile data, we identif
 
 ---
 
-##Technologies Used  
+## Technologies Used  
 | Category | Tools & Libraries |
 |-----------|------------------|
 | Programming | Python |
@@ -66,7 +66,7 @@ By training multiple classification models on real-world mobile data, we identif
 
 ---
 
-##Sample Code Snippet  
+## Sample Code Snippet  
 
 ```python
 # Splitting data into training and test sets
@@ -85,3 +85,4 @@ from sklearn.metrics import accuracy_score
 
 predictions = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, predictions))
+
